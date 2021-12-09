@@ -1,0 +1,80 @@
+
+
+.card-img-top {
+  width: 33%;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.card {
+  background-color: rgba(70, 70, 70, 0.226);
+  border-radius: 10%;
+  width: 50%;
+}
+
+
+.inputLogin {
+  width: 70%;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.labelLogin {
+  color: white;
+}
+
+#containerLogin {
+  padding-top: 6em;
+}
+
+#btnlogin {
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.links{
+  text-decoration: none;
+  color: white;
+
+}
+
+.links:hover{
+  color: yellow;
+}
+
+/*
+ESTILO DE DATOASDE USUARIO
+*/
+@media screen and (max-width: 1200px) {
+  #bodyLogin {
+    background-image: url("../img/fondo.jpg");
+    background-size: auto;
+  }
+}
+
+iframe {
+  width: 100vw;
+}
+
+/*Codigo del nav*/
+.navbar {
+  background-color: #035aa6;
+  color: white;
+}
+
+/*Codigo Datos persponales*/
+
+.containerDatos {
+  width: 50%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .containerDatos {
+    width: 90%;
+  }
+}
+
