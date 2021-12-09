@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+   
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/bg.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="context">
+      <div class="area">
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <div class="container" id="containerLogin">
+      
+          <div class="row justify-content-center text-center">
+            <form id="formLogin" class="col-5 card">
+              <img
+                src="../img/tecla_logo.png"
+                class="card-img-top mb-3 mt-3"
+                alt="..."
+              />
+    
+              <div class="mb-4" id="cont_user">
+                <label for="inputUsuario" class="col form-label labelLogin">
+                  Usuario
+                </label>
+                <input
+                  class="form-control inputLogin"
+                  type="text"
+                  placeholder="Ingrese su usuario"
+                  aria-label="Usuario"
+                  id="username_id"
+                />
+              </div>
+              <div class="mb-3" id="cont_pass">
+                <label for="inputPassword" class="form-label labelLogin">
+                  Password
+                </label>
+                <input
+                  type="password"
+                  class="form-control inputLogin"
+                  id="password_id"
+                  placeholder="Ingrese su contraseña"
+                />
+              </div>
+              <div class="row">
+                <label class="col-12 mt-4 labelLogin">
+                  ¿No tienes una cuenta?
+                  <a class="links" href="../../Ejercicio.html">
+                    Registrate
+                  </a>
+                </label>
+    
+                <a class="links col-12 mt-4" href="#">
+                  ¿Olvidaste tu contraseña?
+                </a>
+              </div>
+              <div class="d-grip gap-2 mt-4 mb-5 text-align">
+                <input type="submit" class="btn btn btn-primary" onclick="" value="Iniciar Sesion" id="btn_login">
+                  Iniciar sesión
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <script src="../javascript/login.js"></script>
+  
+  </body>
+</html>
