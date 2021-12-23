@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "bootstrap-icons": "^1.7.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  },
+  "name": "servidor-web",
+  "version": "1.0.0",
+  "description": "Mi primer servidor web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sebastianruizfen@outlook.com",
+  "license": "ISC"
+}

@@ -1,0 +1,67 @@
+.imagen1{
+    width: 30px;
+    height: 30px;
+}
+
+.container{
+    background-color: #f8f9fa;
+    margin-top: 1rem;
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    color:rgb(18, 53, 119);
+}
+
+i{
+    padding-right: 5px;
+}
+
+.sticky{
+    position: sticky;
+    top:70px;
+    }
+
+.espacio{
+    margin-left: 5px;
+    display: inline;
+    
+}
+
+.bloque{
+    display: block;
+}
+
+.tamano{
+    width: 200px;
+    display: inline;
+}
+
+h1{
+    display: inline;
+    margin-right: 500px;
+}
+
+.container.otro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.container.otro .card{
+    margin: 5px;
+    text-align: center;
+    background-color: #f8f9fa;
+    align-items: center;
+
+}
+
+#carta{
+    background-color: #f8f9fa;
+    border: none;
+}
+
