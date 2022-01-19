@@ -1,0 +1,168 @@
+/* Quitar los estilos del navegador */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+
+
+  .general_margin{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .general_container{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+  }
+
+  .back_cointainer{
+    width: 100%;
+    /* padding: 10px 20px; */
+    /* Para no se por bloque */
+    display: flex;
+    justify-content: center;
+    /* fondo de tipo borroso */
+    backdrop-filter: blur(10px);
+    /* 0.4 para transparentar*/
+    background-color: rgba(42, 94, 184, 0.808);
+
+  }
+
+  .back_cointainer div{
+    margin: 100px 40px;
+    color: white;
+    /* retardo de animacion */
+    transition: all 500ms;
+  }
+
+  .back_cointainer div p, .back_cointainer div button{
+    margin-top: 30px;
+  }
+
+  .back_cointainer button{
+    padding: 10px 40px;
+    border: 2px solid white;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    /* Cambio de cursor a manita */
+    cursor: pointer;
+    color: white;
+    /* borde de cuando se selecciona */
+    outline: none;
+    transition: all 400ms;
+  }
+
+  .back_cointainer button:hover{
+    background: white;
+    color: rgb(84, 148, 209);
+  }
+
+  /* formularios */
+
+  .container_register-login{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: -185px;
+    left: 10px;
+    /* Animacion de desplazamiento */
+    transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  }
+
+  .container_register-login form{
+    width: 100%;
+    padding: 90px 20px;
+    background: white;
+    /* Para poder mover el form */
+    position: absolute;
+    border-radius: 20px;
+  }
+
+  .container_register-login form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(79, 152, 212);
+  }
+
+  .container_register-login form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: whitesmoke;
+    outline: none;
+  }
+
+  .container_register-login form button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border:none;
+    font-size: 14px;
+    font-weight: 600;
+    background: rgb(83, 126, 182);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    transition: all 400ms;
+    margin-left: 100px;
+  }
+  
+  .container_register-login form button:hover{
+    background: white;
+    color: rgb(84, 148, 209);
+    border:1px solid rgb(84, 148, 209) ;
+  }
+
+  .form_login{
+    opacity: 1;
+    display: block;
+  }
+
+  .form_register{
+    display: none;
+  }
+
+  /*Responsive*/
+
+
+  @media (max-width: 850px) {
+    .general_margin{
+      margin-top: 50px;
+    }
+    .back_cointainer{
+      max-width: 350px;
+      height: 300px;
+      flex-direction: column;
+      margin: auto;
+    }
+
+    .back_cointainer div{
+      margin: 0px;
+      position: absolute;
+    }
+
+      /*form*/
+  .container_register-login{
+    top: -10px;
+    left: -5px;
+    margin: auto;
+  }
+
+  .container_register-login form{
+    /* Tenia absolute antes del @media */
+    position: relative;
+  }
+
+  }
+
