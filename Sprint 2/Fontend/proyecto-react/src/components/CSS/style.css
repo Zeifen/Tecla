@@ -1,0 +1,466 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body.body-principal {
+  background-color: #1F2937;
+}
+
+#containerLogin .cardLogin input {
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  font-family: "DM Sans", sans-serif;
+  background-color: #1F2937;
+  color: #fff;
+  border: transparent;
+  height: 60%;
+}
+
+#containerCurso .cardCurso label, body.body-principal .card-body label, body.body-principal #card1 label, #containerLogin .cardLogin label {
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+}
+
+#containerCurso .cardCurso button.botonesTecla, body.body-principal .card-body button.botonesTecla, body.body-principal #card1 button, .NuevoAmigo .card button, #containerLogin .cardLogin button.botonesTecla {
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "DM Sans", sans-serif;
+  background-color: #75bfbf;
+  height: 40px;
+  color: #fff;
+}
+
+#containerCurso .cardCurso button.botonesTecla:hover, body.body-principal .card-body button.botonesTecla:hover, body.body-principal #card1 button:hover, .NuevoAmigo .card button:hover, #containerLogin .cardLogin button.botonesTecla:hover {
+  font-family: "DM Sans", sans-serif;
+  background-color: #8dcccc;
+}
+
+nav button.btn_navbar {
+  border-radius: 50px;
+  color: #75bfbf;
+  background-color: rgba(255, 255, 255, 0.17);
+}
+
+nav button.btn_navbar:hover {
+  background-color: rgba(255, 253, 253, 0.224);
+  color: #1eb5b5;
+}
+
+nav {
+  background-color: #141a23;
+}
+
+nav a.nav-link {
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+nav input.inputRegistro {
+  border-radius: 25px;
+  background-color: #4551626a;
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  border: transparent;
+}
+
+body.body-principal {
+  background-color: #1F2937;
+}
+
+#containerLogin .cardLogin input {
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  font-family: "DM Sans", sans-serif;
+  background-color: #1F2937;
+  color: #fff;
+  border: transparent;
+  height: 60%;
+}
+
+#containerCurso .cardCurso label, body.body-principal .card-body label, body.body-principal #card1 label, #containerLogin .cardLogin label {
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+}
+
+#containerCurso .cardCurso button.botonesTecla, body.body-principal .card-body button.botonesTecla, body.body-principal #card1 button, .NuevoAmigo .card button, #containerLogin .cardLogin button.botonesTecla {
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "DM Sans", sans-serif;
+  background-color: #75bfbf;
+  height: 40px;
+  color: #fff;
+}
+
+#containerCurso .cardCurso button.botonesTecla:hover, body.body-principal .card-body button.botonesTecla:hover, body.body-principal #card1 button:hover, .NuevoAmigo .card button:hover, #containerLogin .cardLogin button.botonesTecla:hover {
+  font-family: "DM Sans", sans-serif;
+  background-color: #8dcccc;
+}
+
+nav button.btn_navbar {
+  border-radius: 50px;
+  color: #75bfbf;
+  background-color: rgba(255, 255, 255, 0.17);
+}
+
+nav button.btn_navbar:hover {
+  background-color: rgba(255, 253, 253, 0.224);
+  color: #1eb5b5;
+}
+
+#containerCurso .cardCurso {
+  background-color: rgba(70, 70, 70, 0.226);
+  border-radius: 5%;
+  width: 50%;
+}
+
+#containerCurso .cardCurso button.botonesTecla {
+  width: 100px;
+}
+
+#containerCurso .cardCurso h3 {
+  color: white;
+}
+
+#containerCurso .cardCurso input.inputRegistro {
+  border-radius: 8px;
+  background-color: #4551626a;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  border: transparent;
+}
+
+body.body-principal {
+  background-color: #1F2937;
+}
+
+#containerLogin .cardLogin input {
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  font-family: "DM Sans", sans-serif;
+  background-color: #1F2937;
+  color: #fff;
+  border: transparent;
+  height: 60%;
+}
+
+#containerCurso .cardCurso label, body.body-principal .card-body label, body.body-principal #card1 label, #containerLogin .cardLogin label {
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+}
+
+#containerCurso .cardCurso button.botonesTecla, body.body-principal .card-body button.botonesTecla, body.body-principal #card1 button, .NuevoAmigo .card button, #containerLogin .cardLogin button.botonesTecla {
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "DM Sans", sans-serif;
+  background-color: #75bfbf;
+  height: 40px;
+  color: #fff;
+}
+
+#containerCurso .cardCurso button.botonesTecla:hover, body.body-principal .card-body button.botonesTecla:hover, body.body-principal #card1 button:hover, .NuevoAmigo .card button:hover, #containerLogin .cardLogin button.botonesTecla:hover {
+  font-family: "DM Sans", sans-serif;
+  background-color: #8dcccc;
+}
+
+nav button.btn_navbar {
+  border-radius: 50px;
+  color: #75bfbf;
+  background-color: rgba(255, 255, 255, 0.17);
+}
+
+nav button.btn_navbar:hover {
+  background-color: rgba(255, 253, 253, 0.224);
+  color: #1eb5b5;
+}
+
+body.body-principal .card {
+  border: none;
+  background-color: #4551626a;
+}
+
+body.body-principal .card-header {
+  background-color: #75bfbf;
+}
+
+body.body-principal .card-body label {
+  font-size: 18px;
+}
+
+body.body-principal .card-body img {
+  width: 100px;
+  height: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body.body-principal .card-body button.botonesTecla {
+  width: 40%;
+}
+
+body.body-principal #card1 {
+  width: 70%;
+  padding: 5px 5px 5px 5px;
+  background-color: #4551626a;
+}
+
+body.body-principal #card1 label {
+  font-size: 16px;
+}
+
+body.body-principal #card1 input.inputRegistro {
+  border-radius: 8px;
+  background-color: #4551626a;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  border: transparent;
+}
+
+body.body-principal #card2 {
+  width: 40%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#86bfab), to(#4fc1c1));
+  background-image: linear-gradient(to right, #86bfab, #4fc1c1);
+}
+
+body.body-principal {
+  background-color: #1F2937;
+}
+
+#containerLogin .cardLogin input {
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  font-family: "DM Sans", sans-serif;
+  background-color: #1F2937;
+  color: #fff;
+  border: transparent;
+  height: 60%;
+}
+
+#containerCurso .cardCurso label, body.body-principal .card-body label, body.body-principal #card1 label, #containerLogin .cardLogin label {
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+}
+
+#containerCurso .cardCurso button.botonesTecla, body.body-principal .card-body button.botonesTecla, body.body-principal #card1 button, .NuevoAmigo .card button, #containerLogin .cardLogin button.botonesTecla {
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "DM Sans", sans-serif;
+  background-color: #75bfbf;
+  height: 40px;
+  color: #fff;
+}
+
+#containerCurso .cardCurso button.botonesTecla:hover, body.body-principal .card-body button.botonesTecla:hover, body.body-principal #card1 button:hover, .NuevoAmigo .card button:hover, #containerLogin .cardLogin button.botonesTecla:hover {
+  font-family: "DM Sans", sans-serif;
+  background-color: #8dcccc;
+}
+
+nav button.btn_navbar {
+  border-radius: 50px;
+  color: #75bfbf;
+  background-color: rgba(255, 255, 255, 0.17);
+}
+
+nav button.btn_navbar:hover {
+  background-color: rgba(255, 253, 253, 0.224);
+  color: #1eb5b5;
+}
+
+.NuevoAmigo .card {
+  background-color: #4551626a;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.NuevoAmigo .card img {
+  width: 100px;
+  height: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.NuevoAmigo a {
+  text-decoration: none;
+}
+
+.NuevoAmigo i {
+  padding-right: 5px;
+  color: white;
+}
+
+.NuevoAmigo .sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 70px;
+}
+
+.NuevoAmigo .espacio {
+  margin-left: 5px;
+  display: inline;
+}
+
+.NuevoAmigo .bloque {
+  display: block;
+}
+
+.NuevoAmigo .tamano {
+  width: 200px;
+  display: inline;
+}
+
+.NuevoAmigo h1 {
+  display: inline;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+}
+
+.NuevoAmigo .fondo {
+  background-color: #4551626a;
+}
+
+body.body-principal {
+  background-color: #1F2937;
+}
+
+#containerLogin .cardLogin input {
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  font-family: "DM Sans", sans-serif;
+  background-color: #1F2937;
+  color: #fff;
+  border: transparent;
+  height: 60%;
+}
+
+#containerCurso .cardCurso label, body.body-principal .card-body label, body.body-principal #card1 label, #containerLogin .cardLogin label {
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+}
+
+#containerCurso .cardCurso button.botonesTecla, body.body-principal .card-body button.botonesTecla, body.body-principal #card1 button, .NuevoAmigo .card button, #containerLogin .cardLogin button.botonesTecla {
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "DM Sans", sans-serif;
+  background-color: #75bfbf;
+  height: 40px;
+  color: #fff;
+}
+
+#containerCurso .cardCurso button.botonesTecla:hover, body.body-principal .card-body button.botonesTecla:hover, body.body-principal #card1 button:hover, .NuevoAmigo .card button:hover, #containerLogin .cardLogin button.botonesTecla:hover {
+  font-family: "DM Sans", sans-serif;
+  background-color: #8dcccc;
+}
+
+nav button.btn_navbar {
+  border-radius: 50px;
+  color: #75bfbf;
+  background-color: rgba(255, 255, 255, 0.17);
+}
+
+nav button.btn_navbar:hover {
+  background-color: rgba(255, 253, 253, 0.224);
+  color: #1eb5b5;
+}
+
+#containerLogin .cardLogin {
+  background-color: rgba(70, 70, 70, 0.226);
+  border-radius: 5%;
+  width: 50%;
+  /* Style the form icons */
+  /* Style the input fields */
+}
+
+#containerLogin .cardLogin .card-img-top {
+  width: 33%;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+#containerLogin .cardLogin button.botonesTecla {
+  width: 20%;
+}
+
+#containerLogin .cardLogin .icon {
+  padding: 10px;
+  background: #75bfbf;
+  color: white;
+  min-width: 45px;
+  height: 37px;
+  text-align: center;
+}
+
+#containerLogin .cardLogin .input-field {
+  width: 50%;
+  padding: 10px;
+  outline: none;
+  border-radius: 0;
+}
+
+#containerLogin .cardLogin .modal-body {
+  background-color: rgba(70, 70, 70, 0.226);
+}
+
+body.body-principal {
+  background-color: #1F2937;
+}
+
+#containerLogin .cardLogin input {
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  font-family: "DM Sans", sans-serif;
+  background-color: #1F2937;
+  color: #fff;
+  border: transparent;
+  height: 60%;
+}
+
+#containerCurso .cardCurso label, body.body-principal .card-body label, body.body-principal #card1 label, #containerLogin .cardLogin label {
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+}
+
+#containerCurso .cardCurso button.botonesTecla, body.body-principal .card-body button.botonesTecla, body.body-principal #card1 button, .NuevoAmigo .card button, #containerLogin .cardLogin button.botonesTecla {
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "DM Sans", sans-serif;
+  background-color: #75bfbf;
+  height: 40px;
+  color: #fff;
+}
+
+#containerCurso .cardCurso button.botonesTecla:hover, body.body-principal .card-body button.botonesTecla:hover, body.body-principal #card1 button:hover, .NuevoAmigo .card button:hover, #containerLogin .cardLogin button.botonesTecla:hover {
+  font-family: "DM Sans", sans-serif;
+  background-color: #8dcccc;
+}
+
+nav button.btn_navbar {
+  border-radius: 50px;
+  color: #75bfbf;
+  background-color: rgba(255, 255, 255, 0.17);
+}
+
+nav button.btn_navbar:hover {
+  background-color: rgba(255, 253, 253, 0.224);
+  color: #1eb5b5;
+}
+
+.card .barra.card {
+  width: 4000px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,71 @@
+
+@import "extenciones";
+.NuevoAmigo{
+    // /*Agregar usuario*/
+  
+  .card{
+    background-color: #4551626a;
+    border-radius:5px;
+    margin-top: 15px;
+
+
+    button{
+      @extend %botones;
+      &:hover{
+       @extend  %hover-botonesprincipales;
+      }  
+    } 
+
+
+    img{
+      width: 100px;
+      height: 100px;
+      justify-content: center;
+      
+    }
+  }
+  
+  
+  a{
+    text-decoration: none;
+  }
+  
+  i{
+    padding-right: 5px;
+    color:white;
+  }
+  
+  .sticky{
+    position: sticky;
+    top:70px;
+    }
+
+
+  .espacio{
+    margin-left: 5px;
+    display: inline;
+    
+  }
+  
+  .bloque{
+    display: block;
+  }
+  
+  .tamano{
+    width: 200px;
+    display: inline;
+  }
+  
+
+  h1{
+    display: inline;
+    color: $color-letra;
+    font-family: $tipo-letra;
+  }
+  
+  
+  .fondo{
+    background-color: #4551626a;
+  }
+  
+}

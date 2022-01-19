@@ -1,0 +1,37 @@
+
+
+nav {
+   
+    background-color:#141a23;;
+    a{
+      &.nav-link{
+        color: #fff;
+        font-family:$tipo-letra;
+        }
+        &:hover{
+          color: #fff;
+        }
+      
+    }
+  
+    input{
+      &.inputRegistro{
+      border-radius: 25px;
+      background-color:#4551626a;
+      color: #fff;
+      font-family: 'DM Sans', sans-serif;
+      border: transparent;
+      }
+    }
+  
+    button{
+      &.btn_navbar{
+        @extend %botones-barra;
+        &:hover{
+          @extend  %hover-botonesbarra;
+         } 
+      }
+    }
+  
+  
+  }

@@ -1,0 +1,40 @@
+.pie {
+    display: table-header-group;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer {
+    line-height: 1.5;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.ft-legal {
+    padding: 0.9375rem 1.875rem;
+}
+
+.ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ft-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+}
+
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;
+}
