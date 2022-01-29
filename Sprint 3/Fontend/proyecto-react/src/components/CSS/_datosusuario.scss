@@ -1,0 +1,43 @@
+
+
+body{
+    &.body-principal{
+      @extend %bodybg;
+     
+    #card1 {
+      width: 70%;
+      padding: 5px 5px 5px 5px;
+      background-color:#4551626a;
+  
+      label{
+        @extend %label;
+        font-size: 16px;
+        } 
+         
+        button{
+          @extend %botones;
+          &:hover{
+           @extend  %hover-botonesprincipales;
+          }  
+        } 
+        
+        input{
+          &.inputRegistro{
+          border-radius: 8px;
+          background-color:#4551626a;
+          color: $color-letra;
+          font-family: $tipo-letra;
+          border: transparent;
+          }
+        }
+  
+    }
+    
+    #card2 {
+      width: 40%;
+      background-image: linear-gradient(to right, #86bfab, #4fc1c1);
+    }
+  
+  
+    }     
+  }  

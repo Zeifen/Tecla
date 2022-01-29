@@ -1,0 +1,58 @@
+
+$primaty-color: #75bfbf;
+$bd-color:#1F2937;
+$bgPerfil-color: rgba(70, 70, 70, 0.226);
+$tipo-letra:'DM Sans', sans-serif;
+$color-letra:#fff;
+
+%bodybg{
+    background-color: $bd-color;
+}
+
+%inputs {
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    font-family: $tipo-letra;
+    background-color:$bd-color;
+    color:$color-letra;
+    border: transparent;
+    height: 60%;
+  
+  }
+  
+  
+  %label{
+    color: $color-letra;
+    font-family:$tipo-letra;
+    
+  }
+  
+  
+  %botones{
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: $tipo-letra;
+    background-color: $primaty-color;
+    height: 40px;
+    color: $color-letra; 
+  }
+
+  %hover-botonesprincipales{
+    
+    font-family:$tipo-letra;
+    background-color: #8dcccc;
+  }
+  
+  %botones-barra{
+    border-radius: 50px;
+    color:$primaty-color;
+    background-color:rgba(255, 255, 255, 0.17);
+  }
+
+  %hover-botonesbarra{
+    background-color: rgba(255, 253, 253, 0.224);
+    color:#1eb5b5; 
+  }
+
+  

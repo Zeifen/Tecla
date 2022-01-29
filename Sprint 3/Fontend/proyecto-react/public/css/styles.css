@@ -1,0 +1,26 @@
+div{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.center{
+    text-align: center;
+}
+
+
+label{
+    display: block;
+}
+
+input{
+    width: 170px;
+    height: 15px;
+}
+
+
+.container{
+    background-color: #b4b9ce;
+    margin-top: 1rem;
+    width: 300px;
+}

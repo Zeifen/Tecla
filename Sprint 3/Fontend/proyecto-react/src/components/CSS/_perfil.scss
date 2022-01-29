@@ -1,0 +1,42 @@
+// /*Perfil*/
+@import "extenciones";
+body{
+    &.body-principal{
+     @extend %bodybg;
+       .card {
+         border: none;
+         background-color: #4551626a;
+       }
+   
+       .card-header{
+         background-color: $primaty-color;
+       }
+       .card-body{
+         
+         label{
+           font-size: 18px;
+           @extend %label;
+           } 
+   
+           img{
+            width: 100px;
+            height: 100px;
+            justify-content: center;
+            
+          }
+           button{
+             &.botonesTecla{
+               width: 40%;
+               @extend %botones;
+               &:hover{
+               @extend  %hover-botonesprincipales;
+               }
+             }     
+           }      
+       }
+   
+     
+       
+     }
+   }
+   

@@ -1,0 +1,38 @@
+
+@import "extenciones";
+// /*NuevoCurso*/
+  
+#containerCurso{
+    .cardCurso{
+      background-color: rgba(70, 70, 70, 0.226);
+      border-radius: 5%;
+      width: 50%;
+      label{
+        @extend %label;
+        } 
+  
+        button{
+          &.botonesTecla{
+            width: 100px;
+            @extend %botones;
+            &:hover{
+             @extend  %hover-botonesprincipales;
+            }
+          }     
+        }  
+        h3{
+          color:rgb(255, 255, 255);
+        }
+
+        input{
+          &.inputRegistro{
+          border-radius: 8px;
+          background-color:#4551626a;
+          color:$color-letra;
+          font-family:$tipo-letra;
+          border: transparent;
+          }
+        }
+    }
+  }
+  
