@@ -1,0 +1,189 @@
+<!doctype html> <!--Tipo de HTML, que es 5 -->
+<html lang="es"> <!--Especificar el idioma del contenido -->
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"> <!--Detecta los caracteres, en este caso para los acentos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--el viewport detecta los dif. tamaños de dispositivo-->
+    
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet"> <!--Tipo de fuente de Google-->
+    <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- Bootstrap CSS instalado en equipo -->
+    <link rel="stylesheet" href="css/main.css"> <!--archivo CSS main-->
+    <script src="https://unpkg.com/scrollreveal"></script> <!--Se agrega scrollreveal para la animación de la página-->
+    <title>Proyecto Bootstrap</title>
+       <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS --> <!--Manda llamar lo requerido para JQuery y JS desde el servidor de Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container"> <!---->
+  <a class="navbar-brand" href="#">Web Zeifen</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto"> <!---->
+      <li class="nav-item active">
+        <a class="nav-link" href="#headerrr">Inicio</a> <!---->
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#info">Acerca</a>
+      </li>
+      <!--Desplegar botón con opciones-->
+      <!--<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    -->
+    <li class="nav-item">
+      <a class="nav-link" href="#contacto">Contacto</a> <!---->
+    </li>
+    <!--Botón Disabled--> 
+    <!--<li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+  -->
+    <!--Campo de Busqueda-->
+    <!--<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+  </div>
+</div>
+</nav>
+
+<header id="headerrr">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="header-content-left">
+          <img src="img/image1.png" style="width: 100%;"> <!--El 100% de la columna-->
+        </div>
+      </div>
+      <div class="col-md-6 my-auto">
+        <div class="header-content-right">
+         <h3 class="mb-3 text-center display-4">El futuro es hoy, viejo.</h3>
+         <p class="text-justify mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis omnis amet non delectus nihil facilis ea cumque molestias incidunt repellendus eveniet, inventore at eligendi fuga quaerat. Praesentium omnis recusandae voluptatibus quis eveniet repellendus necessitatibus consequatur sit porro, odio sapiente fugit./p>
+         <a href="#" class="btn btn-outline-secondary btn-lg mt-5 header-btn">Leer más</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="testimonio">
+  <div class="container">
+    <p class="h3 mb-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat impedit iusto eius dolor nihil. Quidem obcaecati quasi cum odit consequatur?</p>
+    <p class="h4"> - Sebastian Ruiz</p>
+  </div>
+</section>
+
+<section id="info">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+          <div class="info-left">
+            <img src="img/image2.png" alt="telefono" style="width: 100%;">
+          </div>
+      </div>
+      <div class="col-md-6 my-auto text-justify">
+        <div class="info-right">
+        <h2 class="mb-3">Lorem ipsum dolor sit.</h2>
+        <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ipsa modi, earum sit facilis dolorem magni eos corporis minima placeat voluptatem maiores repellendus in ratione, illum optio rerum ex quam quos recusandae qui tempore labore? Ullam voluptatibus fuga saepe pariatur.</p>
+        <a href="#" class="btn btn-outline-secondary btn-lg mt-5">Leer más</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="info2"> <!--Style?-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+      <h2>Información</h2>
+      <p class="mt-5 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, quaerat itaque maiores quisquam autem odit vitae officiis quae. Adipisci mollitia quam impedit enim cum quia sed non accusantium quasi assumenda.</p>
+      </div>
+      <div class="col-md-6">
+      <h2>Información 2</h2>
+      <p class="mt-5 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti neque nam, quis ducimus ullam eveniet accusamus vitae ipsam modi deserunt velit error provident possimus reiciendis similique corporis fuga hic numquam!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contacto">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-5">
+        <form class="card">
+          <div class="card-body">
+            <div class="form-group">
+              <input type="text" placeholder="Nombre" class="form-control">
+            </div>
+            <div class="form-group">
+            <input type="email" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+            <textarea rows="10" cols="30" placeholder="Mensaje" class="form-control"></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline-secondary btn-block">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+    <script>
+      window.sr = ScrollReveal();
+
+    sr.reveal('.navbar', {
+      duration: 2000,
+      origin: 'bottom'
+    });
+
+    sr.reveal('.header-content-left', {
+      duration: 2000,
+      origin: 'top',
+      distance: '300px'
+    });
+
+    sr.reveal('.header-content-right', {
+      duration: 2000,
+      origin: 'right',
+      distance: '300px'
+    });
+
+    sr.reveal('.header-btn', {
+      duration: 2000,
+      delay: 1000, 
+      origin: 'bottom'
+    });
+
+    sr.reveal('#testimonio', {
+      duration: 2000,
+      origin: 'left',
+      distance: '300px',
+      viewFactor: 0.2
+    });
+
+    </script>
+ 
+  </body>
+</html>

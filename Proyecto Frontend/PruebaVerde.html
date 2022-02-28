@@ -1,0 +1,120 @@
+<!doctype html> <!--Tipo de HTML, que es 5 -->
+<html lang="es"> <!--Especificar el idioma del contenido -->
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"> <!--Detecta los caracteres, en este caso para los acentos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--el viewport detecta los dif. tamaños de dispositivo-->
+    
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet"> <!--Tipo de fuente de Google-->
+    <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- Bootstrap CSS instalado en equipo -->
+    <link rel="stylesheet" href="css/ArchivoProyectoVerdeCSS.css"> <!---->
+    <link rel="stylesheet" href="css/all.css"> <!---->
+ 
+    <title>Proyecto Bootstrap</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div id="logo">
+        <h1 class="logo">Diseño</h1>
+        
+      </div>
+      <div class="leftbox">
+        <nav>
+          <a id="profile" class="active"><i class="fa fa-user"></i></a>
+          <a id="payment"><i class="fa fa-credit-card"></i></a>
+          <a id="subscription"><i class="fa fa-tv"></i></a>
+          <a id="privacy"><i class="fa fa-tasks"></i></a>
+          <a id="settings"><i class="fa fa-cog"></i></a>
+        </nav>
+      </div>
+       
+      <div class="rightbox">
+        <div class="profile">
+          <h1>Personal Info</h1>
+          <h2>Solicitante</h2>
+          <input type="text" placeholder="Dame el Nombre" class="textInput">
+          <h2>Área</h2>
+          <input type="text" placeholder="Dame el Area" class="textInput">
+          <h2>Jefe</h2>
+          <input type="text" placeholder="Nombre de Jefe" class="textInput">
+          <h2>Archivo</h2>
+          <input type="file" placeholder="Nombre de Jefe" class="button textInput">
+          <button type='button' class="btn" onclick="guardaRegistro()" href="#">Enviar</button>
+        </div>
+      
+
+        
+    
+        <div class="payment noshow">
+          <h1>Payment Info</h1>
+          <h2>Payment Method</h2>
+          <p>Mastercard •••• •••• •••• 0000 <button class="btn">update</button></p>
+          <h2>Billing Address</h2>
+          <p>1234 Example Ave | Seattle, WA <button class="btn">change</button></p>
+          <h2>Zipcode</h2>
+          <p>999000</p>
+          <h2>Billing History</h2>
+          <p>2018<button class="btn">view</button></p>
+          <h2>Redeem Gift Subscription </h2>
+          <p><input type="text" placeholder="Enter Gift Code"></input> <button class="btn">Redeem</button></p>
+        </div>
+    
+        <div class="subscription noshow">
+          <h1>Your Subscription</h1>
+          <h2>Payment Date</h2>
+          <p>05-15-2018 <button class="btn">pay now</button></p>
+          <h2>Your Next Charge</h2>
+          <p>$8.48<span> includes tax</span></p>
+          <h2>Hulu Base Plan</h2>
+          <p>Limited Commercials <button class="btn">change plan</button></p>
+          <h2>Add-ons</h2>
+          <p>None <button class="btn">manage</button></p>
+          <h2>Monthly Recurring Total </h2>
+          <p>$7.99/month</p>
+        </div>
+    
+        <div class="privacy noshow">
+          <h1>Privacy Settings</h1>
+          <h2>Manage Email Notifications<button class="btn">manage</button></h2>
+          <p></p>
+          <h2>Manage Privacy Settings<button class="btn">manage</button></h2>
+          <p></p>
+          <h2>View Terms of Use <button class="btn">view</button></h2>
+          <p></p>
+          <h2>Personalize Ad Experience <button class="btn">update</button></h2>
+          <p></p>
+          <h2>Protect Your Account <button class="btn">protect</button></h2>
+          <p></p>
+        </div>
+        <div class="settings noshow">
+          <h1>Account Settings</h1>
+          <h2>Sync Watchlist to My Stuff<button class="btn">sync</button></h2>
+          <p></p>
+          <h2>Hold Your Subscription<button class="btn">hold</button></h2>
+          <p></p>
+          <h2>Cancel Your Subscription <button class="btn">cancel</button></h2>
+          <p></p>
+          <h2>Your Devices <button class="btn">Manage Devices</button></h2>
+          <p></p>
+          <h2>Referrals <button class="btn">get $10</button></h2>
+          <p></p>
+        </div>
+    
+      </div>
+    </div>
+    
+    <footer>
+      <p>made by <a href="https://codepen.io/juliepark"> julie</a> ♡
+    </footer>
+
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS --> <!--Manda llamar lo requerido para JQuery y JS desde el servidor de Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ArchivoProyectoVerdeJS.js"></script> <!---->
+    
+
+  </body>
+</html>
